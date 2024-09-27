@@ -25,28 +25,6 @@
         <styleUrl>#line-000000-1200-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-E65100-2550-normal">
-      <LineStyle>
-        <color>ff0051e6</color>
-        <width>2.55</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-E65100-2550-highlight">
-      <LineStyle>
-        <color>ff0051e6</color>
-        <width>3.825</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-E65100-2550">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-E65100-2550-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-E65100-2550-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Style id="line-E65100-2744-normal">
       <LineStyle>
         <color>ff0051e6</color>
@@ -201,6 +179,50 @@
         <styleUrl>#line-E65100-5108-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="line-E65100-5844-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>5.844</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-E65100-5844-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>8.766</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-E65100-5844">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-5844-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-5844-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-E65100-7200-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>7.2</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-E65100-7200-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>10.8</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-E65100-7200">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-7200-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-7200-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="line-E65100-7394-normal">
       <LineStyle>
         <color>ff0051e6</color>
@@ -264,19 +286,6 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Bonny Oaks and Addison</name>
-        <description>down tree</description>
-        <styleUrl>#line-E65100-2550</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            -85.2271852,35.0795921,0
-            -85.2272496,35.0796624,0
-            -85.2285372,35.0801805,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
         <name>3rd and Chestnut</name>
         <description>tree down northbound </description>
         <styleUrl>#line-E65100-2744</styleUrl>
@@ -297,6 +306,18 @@
           <coordinates>
             -85.2464151,35.0242381,0
             -85.2457821,35.0253671,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>West 20th (East Bound)</name>
+        <description>Just at the 300 Block but closed both directions</description>
+        <styleUrl>#line-E65100-7200</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -85.3136045,35.0332911,0
+            -85.3126121,35.0329222,0
           </coordinates>
         </LineString>
       </Placemark>
@@ -403,6 +424,32 @@
           <coordinates>
             -85.2352297,35.0822614,0
             -85.2355409,35.0814712,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>West 20th (West Bound)</name>
+        <description>Just at the 300 Block but closed both directions</description>
+        <styleUrl>#line-E65100-5844</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -85.3134784,35.0334075,0
+            -85.3125772,35.0330627,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[3200 Amnicola & Stewart]]></name>
+        <description>flooding</description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -85.2656153,35.0787156,0
+            -85.2666881,35.0767488,0
+            -85.2661624,35.0776883,0
+            -85.2645102,35.0770825,0
           </coordinates>
         </LineString>
       </Placemark>
