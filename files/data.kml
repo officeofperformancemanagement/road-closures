@@ -3,34 +3,6 @@
   <Document>
     <name>Helene Road Closures</name>
     <description/>
-    <Style id="line-000000-1200-nodesc-normal">
-      <LineStyle>
-        <color>ff000000</color>
-        <width>1.2</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="line-000000-1200-nodesc-highlight">
-      <LineStyle>
-        <color>ff000000</color>
-        <width>1.8</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="line-000000-1200-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Style id="line-E65100-2356-normal">
       <LineStyle>
         <color>ff0051e6</color>
@@ -97,6 +69,34 @@
         <styleUrl>#line-E65100-2744-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="line-E65100-2744-nodesc-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>2.744</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-E65100-2744-nodesc-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>4.116</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-E65100-2744-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-2744-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-2744-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="line-E65100-2938-normal">
       <LineStyle>
         <color>ff0051e6</color>
@@ -161,6 +161,34 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#line-E65100-3325-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-E65100-3325-nodesc-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>3.325</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-E65100-3325-nodesc-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>4.9875</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-E65100-3325-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-3325-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-3325-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="line-E65100-3713-normal">
@@ -623,7 +651,7 @@
       </Placemark>
       <Placemark>
         <name>Commons and Gunbarrel (1/1)</name>
-        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <styleUrl>#line-E65100-2744-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -634,7 +662,7 @@
       </Placemark>
       <Placemark>
         <name>Commons and Gunbarrel (2/2)</name>
-        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <styleUrl>#line-E65100-3325-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
