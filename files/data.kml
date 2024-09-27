@@ -25,6 +25,50 @@
         <styleUrl>#line-000000-1200-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="line-E65100-2356-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>2.356</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-E65100-2356-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>3.534</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-E65100-2356">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-2356-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-2356-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-E65100-2550-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>2.55</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-E65100-2550-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>3.825</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-E65100-2550">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-2550-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-2550-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="line-E65100-2744-normal">
       <LineStyle>
         <color>ff0051e6</color>
@@ -45,6 +89,28 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#line-E65100-2744-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-E65100-2938-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>2.938</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-E65100-2938-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>4.407</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-E65100-2938">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-2938-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-2938-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="line-E65100-3131-normal">
@@ -111,6 +177,28 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#line-E65100-3713-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-E65100-3906-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>3.906</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-E65100-3906-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>5.859</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-E65100-3906">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-3906-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-3906-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="line-E65100-4914-normal">
@@ -406,7 +494,7 @@
       <Placemark>
         <name>4510 Bonny Oaks Dr</name>
         <description>water across the road</description>
-        <styleUrl>#line-000000-1200</styleUrl>
+        <styleUrl>#line-E65100-3906</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -418,7 +506,7 @@
       <Placemark>
         <name>3918 Meadow Lane</name>
         <description>tree down </description>
-        <styleUrl>#line-000000-1200</styleUrl>
+        <styleUrl>#line-E65100-3131</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -442,7 +530,7 @@
       <Placemark>
         <name><![CDATA[3200 Amnicola & Stewart]]></name>
         <description>flooding</description>
-        <styleUrl>#line-000000-1200</styleUrl>
+        <styleUrl>#line-E65100-3713</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -450,6 +538,68 @@
             -85.2666881,35.0767488,0
             -85.2661624,35.0776883,0
             -85.2645102,35.0770825,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[153 & Amnicola]]></name>
+        <description>tree down</description>
+        <styleUrl>#line-E65100-2356</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -85.217326,35.0929213,0
+            -85.2178839,35.091227,0
+            -85.2188388,35.089761,0
+            -85.2197614,35.0891464,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Old Mission & St Marks (2/2)]]></name>
+        <description>tree down in the roundabout</description>
+        <styleUrl>#line-E65100-2550</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -85.2251537,35.0162623,0
+            -85.2227987,35.0153968,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Old Mission & St Marks (1/2)]]></name>
+        <description>tree down in the roundabout</description>
+        <styleUrl>#line-E65100-2938</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -85.2250143,35.0140304,0
+            -85.2234372,35.0168773,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>317 Oak St </name>
+        <description>smoke coming out of sewer</description>
+        <styleUrl>#line-E65100-3325</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -85.3065077,35.0489172,0
+            -85.3050647,35.0483551,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>1915 McCaulie</name>
+        <description><![CDATA[8' Retaining wall collapsed]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -85.2746087,35.0358764,0
+            -85.2718568,35.0348618,0
           </coordinates>
         </LineString>
       </Placemark>
