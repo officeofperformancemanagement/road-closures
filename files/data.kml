@@ -3,6 +3,28 @@
   <Document>
     <name>Helene Road Closures</name>
     <description/>
+    <Style id="line-E65100-2163-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>2.163</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-E65100-2163-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>3.2445</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-E65100-2163">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-2163-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-2163-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="line-E65100-2356-normal">
       <LineStyle>
         <color>ff0051e6</color>
@@ -67,34 +89,6 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#line-E65100-2744-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-E65100-2744-nodesc-normal">
-      <LineStyle>
-        <color>ff0051e6</color>
-        <width>2.744</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="line-E65100-2744-nodesc-highlight">
-      <LineStyle>
-        <color>ff0051e6</color>
-        <width>4.116</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="line-E65100-2744-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-E65100-2744-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-E65100-2744-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="line-E65100-2938-normal">
@@ -163,32 +157,26 @@
         <styleUrl>#line-E65100-3325-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-E65100-3325-nodesc-normal">
+    <Style id="line-E65100-3519-normal">
       <LineStyle>
         <color>ff0051e6</color>
-        <width>3.325</width>
+        <width>3.519</width>
       </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="line-E65100-3325-nodesc-highlight">
+    <Style id="line-E65100-3519-highlight">
       <LineStyle>
         <color>ff0051e6</color>
-        <width>4.9875</width>
+        <width>5.2785</width>
       </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="line-E65100-3325-nodesc">
+    <StyleMap id="line-E65100-3519">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-E65100-3325-nodesc-normal</styleUrl>
+        <styleUrl>#line-E65100-3519-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-E65100-3325-nodesc-highlight</styleUrl>
+        <styleUrl>#line-E65100-3519-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="line-E65100-3713-normal">
@@ -650,24 +638,42 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Commons and Gunbarrel (1/1)</name>
-        <styleUrl>#line-E65100-2744-nodesc</styleUrl>
+        <name>300 block Sanders Rd</name>
+        <description>two trees down blocking both lanes, no through traffic</description>
+        <styleUrl>#line-E65100-2163</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            -85.1487844,35.0357938,0
-            -85.1562088,35.0386225,0
+            -85.0974392,35.0637815,0
+            -85.0964844,35.0633249,0
+            -85.095154,35.0628331,0
+            -85.0944673,35.0626135,0
+            -85.0943064,35.0626838,0
+            -85.0938558,35.0631053,0
+            -85.0933301,35.0632722,0
+            -85.0929653,35.0632985,0
+            -85.0914418,35.0627189,0
           </coordinates>
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Commons and Gunbarrel (2/2)</name>
-        <styleUrl>#line-E65100-3325-nodesc</styleUrl>
+        <name>Cummings Hwy</name>
+        <description>Significant road closure at 1900 Cummings Hwy between old Wauhatchie Pike and S. Scenic Hwy due to rockslide.</description>
+        <styleUrl>#line-E65100-3519</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            -85.1530116,35.0350208,0
-            -85.1500504,35.0402915,0
+            -85.3283343,35.0136642,0
+            -85.3293857,35.0144551,0
+            -85.3303728,35.015158,0
+            -85.3313169,35.015738,0
+            -85.3318963,35.0163003,0
+            -85.3333339,35.0167045,0
+            -85.3340849,35.0174602,0
+            -85.3347072,35.0177765,0
+            -85.3359732,35.0189012,0
+            -85.337368,35.0199028,0
+            -85.3388056,35.0208166,0
           </coordinates>
         </LineString>
       </Placemark>
