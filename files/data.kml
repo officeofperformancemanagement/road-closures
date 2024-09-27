@@ -668,7 +668,7 @@
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            -85.292505,35.0676271,0
+            -85.2902734,35.0667358,0
             -85.2943182,35.0683867,0
           </coordinates>
         </LineString>
@@ -794,6 +794,34 @@
             -85.1801997,35.0529403,0
           </coordinates>
         </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Gadd Rd & Winding Ln]]></name>
+        <description>Tree down no wires</description>
+        <styleUrl>#line-E65100-2550</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -85.2577477,35.1413566,0
+            -85.2563422,35.1410758,0
+            -85.2557092,35.1409179,0
+            -85.2540784,35.1408302,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>301 E View Dr</name>
+        <description>tree down</description>
+        <styleUrl>#line-E65100-2356</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -85.2664556,35.0128726,0
+            -85.2666541,35.0124024,0
+            -85.2668311,35.0119982,0
+            -85.267094,35.0116863,0
+          </coordinates>
+        </LineString>
       </Placemark>
     </Folder>
   </Document>
