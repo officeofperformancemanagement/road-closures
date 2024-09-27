@@ -677,6 +677,20 @@
           </coordinates>
         </LineString>
       </Placemark>
+      <Placemark>
+        <name>4500 Cummings Hwy</name>
+        <description>tree down</description>
+        <styleUrl>#line-E65100-3713</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -85.4075971,35.032522,0
+            -85.4069319,35.0312569,0
+            -85.4062238,35.0297458,0
+            -85.405387,35.028059,0
+          </coordinates>
+        </LineString>
+      </Placemark>
     </Folder>
   </Document>
 </kml>
