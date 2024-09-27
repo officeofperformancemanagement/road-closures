@@ -3,28 +3,6 @@
   <Document>
     <name>Helene Road Closures</name>
     <description/>
-    <Style id="line-000000-1200-normal">
-      <LineStyle>
-        <color>ff000000</color>
-        <width>1.2</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-000000-1200-highlight">
-      <LineStyle>
-        <color>ff000000</color>
-        <width>1.8</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-000000-1200">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-000000-1200-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-000000-1200-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Style id="line-E65100-2356-normal">
       <LineStyle>
         <color>ff0051e6</color>
@@ -594,12 +572,24 @@
       <Placemark>
         <name>1915 McCaulie</name>
         <description><![CDATA[8' Retaining wall collapsed]]></description>
-        <styleUrl>#line-000000-1200</styleUrl>
+        <styleUrl>#line-E65100-2550</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
             -85.2746087,35.0358764,0
             -85.2718568,35.0348618,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>1300 Dugdale St </name>
+        <description>tree down</description>
+        <styleUrl>#line-E65100-2550</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -85.292505,35.0676271,0
+            -85.2943182,35.0683867,0
           </coordinates>
         </LineString>
       </Placemark>
