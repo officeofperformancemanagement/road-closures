@@ -3,6 +3,28 @@
   <Document>
     <name>Helene Road Closures</name>
     <description/>
+    <Style id="line-000000-1200-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-000000-1200-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-000000-1200">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-1200-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-1200-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="line-E65100-2550-normal">
       <LineStyle>
         <color>ff0051e6</color>
@@ -47,6 +69,50 @@
         <styleUrl>#line-E65100-2744-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="line-E65100-3131-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>3.131</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-E65100-3131-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>4.6965</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-E65100-3131">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-3131-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-3131-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-E65100-3325-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>3.325</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-E65100-3325-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>4.9875</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-E65100-3325">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-3325-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-3325-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="line-E65100-3713-normal">
       <LineStyle>
         <color>ff0051e6</color>
@@ -69,16 +135,105 @@
         <styleUrl>#line-E65100-3713-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="line-E65100-4914-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>4.914</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-E65100-4914-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>7.371</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-E65100-4914">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-4914-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-4914-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-E65100-5107-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>5.107</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-E65100-5107-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>7.6605</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-E65100-5107">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-5107-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-5107-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-E65100-5108-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>5.108</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-E65100-5108-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>7.662</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-E65100-5108">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-5108-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-5108-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-E65100-7394-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>7.394</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-E65100-7394-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>11.091</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-E65100-7394">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-7394-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-7394-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Folder>
       <name>Closures</name>
       <Placemark>
-        <name>511 Mercer</name>
+        <name>1511 Mercer</name>
         <description>power lines down</description>
         <styleUrl>#line-E65100-3713</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            -85.2621831,35.1056702,0
+            -85.2620007,35.106662,0
+            -85.262108,35.1056833,0
             -85.2620436,35.1054595,0
             -85.2620436,35.105126,0
             -85.2621509,35.1048451,0
@@ -130,6 +285,124 @@
           <coordinates>
             -85.3118701,35.0546696,0
             -85.3118164,35.053541,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>12 N Germantown</name>
+        <description>flooding</description>
+        <styleUrl>#line-E65100-2744</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -85.2464151,35.0242381,0
+            -85.2457821,35.0253671,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Riverfront and Reggie White</name>
+        <description>flooded</description>
+        <styleUrl>#line-E65100-3325</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -85.3176045,35.035527,0
+            -85.3173684,35.0356192,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>11th Street </name>
+        <description>flood with car stuck</description>
+        <styleUrl>#line-E65100-3131</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -85.3039597,35.0418738,0
+            -85.3012131,35.0407846,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>1900 Dodds</name>
+        <description>flood requesting barricades</description>
+        <styleUrl>#line-E65100-7394</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -85.2715998,35.0192049,0
+            -85.2728443,35.0168061,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>2807 Ridgecrest Dr </name>
+        <description>Tree down with powerline in it</description>
+        <styleUrl>#line-E65100-5107</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -85.2363492,35.0778983,0
+            -85.2336455,35.0793031,0
+            -85.2334631,35.0795402,0
+            -85.2334631,35.079786,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Amnicola & Appling]]></name>
+        <description>flooding with truck stuck</description>
+        <styleUrl>#line-E65100-5108</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -85.2679697,35.0745289,0
+            -85.2690426,35.0724216,0
+            -85.2686027,35.0732821,0
+            -85.2666716,35.0725445,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>300 E 20th</name>
+        <description>Flooding with car stuck</description>
+        <styleUrl>#line-E65100-4914</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -85.3044627,35.0308755,0
+            -85.3053639,35.0291711,0
+            -85.3049294,35.0300277,0
+            -85.3058735,35.0302869,0
+            -85.3048543,35.0300013,0
+            -85.3043661,35.0298125,0
+            -85.3049562,35.0300365,0
+            -85.3057877,35.0304186,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>4510 Bonny Oaks Dr</name>
+        <description>water across the road</description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -85.2040082,35.0761493,0
+            -85.2019375,35.0757102,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>3918 Meadow Lane</name>
+        <description>tree down </description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -85.2352297,35.0822614,0
+            -85.2355409,35.0814712,0
           </coordinates>
         </LineString>
       </Placemark>
