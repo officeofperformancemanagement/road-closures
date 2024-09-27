@@ -5,8 +5,8 @@ on:
     branches:
       - main
   schedule:
-    # every 5 minutes
-    - cron: '*/5 * * * *'
+    # every 15 minutes
+    - cron: '*/15 * * * *''
 
 jobs:
   build:
