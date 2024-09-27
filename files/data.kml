@@ -1,1 +1,138 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Helene Road Closures</name>
+    <description/>
+    <Style id="line-E65100-2550-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>2.55</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-E65100-2550-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>3.825</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-E65100-2550">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-2550-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-2550-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-E65100-2744-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>2.744</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-E65100-2744-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>4.116</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-E65100-2744">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-2744-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-2744-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-E65100-3713-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>3.713</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-E65100-3713-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>5.5695</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-E65100-3713">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-3713-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-3713-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Closures</name>
+      <Placemark>
+        <name>511 Mercer</name>
+        <description>power lines down</description>
+        <styleUrl>#line-E65100-3713</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -85.2621831,35.1056702,0
+            -85.2620436,35.1054595,0
+            -85.2620436,35.105126,0
+            -85.2621509,35.1048451,0
+            -85.2624942,35.1044238,0
+            -85.2627624,35.1041517,0
+            -85.2636744,35.1036163,0
+            -85.26464,35.1030194,0
+            -85.2648867,35.1026771,0
+            -85.2648867,35.1025103,0
+            -85.2651764,35.1019837,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Spring Garden Lane</name>
+        <description>down tree and power lines</description>
+        <styleUrl>#line-E65100-2744</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -85.2180044,35.0155099,0
+            -85.2168886,35.0155011,0
+            -85.2164165,35.015466,0
+            -85.2159444,35.0152726,0
+            -85.2139167,35.0143764,0
+            -85.2136163,35.0142182,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Bonny Oaks and Addison</name>
+        <description>down tree</description>
+        <styleUrl>#line-E65100-2550</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -85.2271852,35.0795921,0
+            -85.2272496,35.0796624,0
+            -85.2285372,35.0801805,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>3rd and Chestnut</name>
+        <description>tree down northbound </description>
+        <styleUrl>#line-E65100-2744</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -85.3118701,35.0546696,0
+            -85.3118164,35.053541,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

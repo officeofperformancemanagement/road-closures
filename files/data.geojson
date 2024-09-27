@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "Closures",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "511 Mercer", "description": "power lines down", "tessellate": 1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "LineString", "coordinates": [ [ -85.2621831, 35.1056702, 0.0 ], [ -85.2620436, 35.1054595, 0.0 ], [ -85.2620436, 35.105126, 0.0 ], [ -85.2621509, 35.1048451, 0.0 ], [ -85.2624942, 35.1044238, 0.0 ], [ -85.2627624, 35.1041517, 0.0 ], [ -85.2636744, 35.1036163, 0.0 ], [ -85.26464, 35.1030194, 0.0 ], [ -85.2648867, 35.1026771, 0.0 ], [ -85.2648867, 35.1025103, 0.0 ], [ -85.2651764, 35.1019837, 0.0 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Spring Garden Lane", "description": "down tree and power lines", "tessellate": 1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "LineString", "coordinates": [ [ -85.2180044, 35.0155099, 0.0 ], [ -85.2168886, 35.0155011, 0.0 ], [ -85.2164165, 35.015466, 0.0 ], [ -85.2159444, 35.0152726, 0.0 ], [ -85.2139167, 35.0143764, 0.0 ], [ -85.2136163, 35.0142182, 0.0 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Bonny Oaks and Addison", "description": "down tree", "tessellate": 1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "LineString", "coordinates": [ [ -85.2271852, 35.0795921, 0.0 ], [ -85.2272496, 35.0796624, 0.0 ], [ -85.2285372, 35.0801805, 0.0 ] ] } },
+{ "type": "Feature", "properties": { "Name": "3rd and Chestnut", "description": "tree down northbound ", "tessellate": 1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "LineString", "coordinates": [ [ -85.3118701, 35.0546696, 0.0 ], [ -85.3118164, 35.053541, 0.0 ] ] } }
+]
+}
