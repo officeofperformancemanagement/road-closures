@@ -3,6 +3,48 @@
   <Document>
     <name>Helene Road Closures</name>
     <description/>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="icon-1899-E65100-normal">
       <IconStyle>
         <color>ff0051e6</color>
@@ -444,18 +486,6 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>12 N Germantown</name>
-        <description>flooding</description>
-        <styleUrl>#line-E65100-2744</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            -85.2464151,35.0242381,0
-            -85.2457821,35.0253671,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
         <name>West 20th (East Bound)</name>
         <description>Just at the 300 Block but closed both directions</description>
         <styleUrl>#line-E65100-7200</styleUrl>
@@ -822,6 +852,15 @@
             -85.267094,35.0116863,0
           </coordinates>
         </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Highland Park</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.2800073,35.0325882,0
+          </coordinates>
+        </Point>
       </Placemark>
     </Folder>
   </Document>
