@@ -691,6 +691,47 @@
           </coordinates>
         </LineString>
       </Placemark>
+      <Placemark>
+        <name>2600 Glass St</name>
+        <description>tree down no wires</description>
+        <styleUrl>#line-E65100-2550</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -85.2478693,35.0658121,0
+            -85.2457825,35.0664663,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>801 Albany St</name>
+        <description>tree down no wires</description>
+        <styleUrl>#line-E65100-2938</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -85.2988364,35.0704355,0
+            -85.2986701,35.0714102,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>5824 Browntown Rd</name>
+        <description>power lines down</description>
+        <styleUrl>#line-E65100-3325</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -85.2742779,35.1631258,0
+            -85.2742458,35.1632179,0
+            -85.2742887,35.1633407,0
+            -85.2743745,35.1635117,0
+            -85.2746105,35.1637968,0
+            -85.2748788,35.1644853,0
+            -85.2749002,35.1648932,0
+          </coordinates>
+        </LineString>
+      </Placemark>
     </Folder>
   </Document>
 </kml>
